@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   overflow-y: visible;
-  overflow-x: hidden;
 }
 body {
   background-color: grey;
@@ -195,6 +194,6 @@ li.checked::before {
   }
   body {
     width: 100%;
-    height: 120vh;
+    height: 110vh;
   }
 }
