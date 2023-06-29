@@ -196,4 +196,16 @@ li.checked::before {
     width: 100%;
     height: 110vh;
   }
+  #when {
+    width: 100%;
+    margin: auto;
+  }
+  #addbtn {
+    width: 100%;
+    margin: auto;
+  }
+  #date {
+    width: 100%;
+    margin: auto;
+  }
 }
