@@ -52,7 +52,7 @@ body {
   margin: auto 10px;
   padding: 10px;
   position: relative;
-  top: -700px;
+  top: -900px;
   transition: all 2.5s ease-out;
 }
 #textbox {
