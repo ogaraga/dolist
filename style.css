@@ -109,7 +109,7 @@ h1 {
   font-weight: bolder;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 #listcontent {
