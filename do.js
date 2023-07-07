@@ -11,7 +11,7 @@ clicks.addEventListener("click", () => {
     dolist.classList.toggle('active');
 
 })
-
+// adding date to the do-list
 addWhen.addEventListener(("click"), () => {
     let myInput = input.value;
     let txt = /([0-9]{2}):([0-9]{2}):([0-9]{2})/;
@@ -25,8 +25,10 @@ addWhen.addEventListener(("click"), () => {
         alert("Stick to the date-format");
         input.value = "";
     }
+    saveData();
 })
 
+//creating li and delete buttons.
 
 btn.addEventListener("click", () => {
     let items = document.createElement("li");
@@ -34,6 +36,7 @@ btn.addEventListener("click", () => {
     text.value = "";
     let remove = document.createElement("label");
     items.appendChild(remove).innerHTML = "X";
+
     saveData();
 })
 listcontent.addEventListener("click", (e) => {
