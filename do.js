@@ -19,13 +19,15 @@ addWhen.addEventListener(("click"), () => {
     if (txt2 && myInput.length === 8) {
         date.innerHTML = myInput;
         input.value = "";
+
+        saveData();
     }
 
     else {
         alert("Stick to the date-format");
         input.value = "";
     }
-    saveData();
+
 })
 
 //creating li and delete buttons.
